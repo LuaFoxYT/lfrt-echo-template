@@ -2,32 +2,42 @@
 2	lfdev	
 3	tbfs	
 4	-c	
-5	pkg/full/	
-6	lfpk/lfrt/latest.lfpk	
-filesystem.open is deprecated avoid using now use filesystem.[readPart, writePart, readAll, writeAll]	
-/home/Admin/Documents/lfrt-echo-template.lfar-84018/	
-filesystem.open is deprecated avoid using now use filesystem.[readPart, writePart, readAll, writeAll]	
+5	src	
+6	out.lfar	
+/mnt/sdcard/Documents/lfrt-echo-template/.lfar-84018/	
 --[LuaFox Runtime Initialization]--	
+creating classtype: api	
 creating api: lfrt:term version 0	
+added class: lfrt:term of type [api]	
+creating api: lfrt:term version 1	
 added class: lfrt:term of type [api]	
 creating api: lfrt:filesystem version 0	
 added class: lfrt:filesystem of type [api]	
+creating api: lfrt:filesystem version 1	
+added class: lfrt:filesystem of type [api]	
 creating api: lfrt:tbfs version 0	
+added class: lfrt:tbfs of type [api]	
+creating api: lfrt:tbfs version 1	
 added class: lfrt:tbfs of type [api]	
 creating api: lfrt:json version 0	
 added class: lfrt:json of type [api]	
 creating api: lfrt:lfpk version 0	
 added class: lfrt:lfpk of type [api]	
+checking for luagoobject	
+found!	
+creating classtype: window	
+creating classtype: label	
+creating classtype: button	
+creating classtype: entry	
 creating api: lfrt:runtime version 0	
+added class: lfrt:runtime of type [api]	
+creating api: lfrt:runtime version 1	
 added class: lfrt:runtime of type [api]	
 --[Appliation Start]--	
 lfdev Terminal initialization	
-filesystem.open is deprecated avoid using now use filesystem.[readPart, writePart, readAll, writeAll]	
-true	
 loading module: 001-json.lua	
-filesystem.open is deprecated avoid using now use filesystem.[readPart, writePart, readAll, writeAll]	
 creating api: TheLuaFox86:json version 0	
 added class: TheLuaFox86:json of type [api]	
-filesystem.open is deprecated avoid using now use filesystem.[readPart, writePart, readAll, writeAll]	
-filesystem.open is deprecated avoid using now use filesystem.[readPart, writePart, readAll, writeAll]	
-filesystem.open is deprecated avoid using now use filesystem.[readPart, writePart, readAll, writeAll]	
+function: 0x798b2088c0	nil	
+filesystem.open is deprecated avoid using. now use filesystem.[readPart, writePart, readAll, writeAll]	
+filesystem.open is deprecated avoid using. now use filesystem.[readPart, writePart, readAll, writeAll]	
