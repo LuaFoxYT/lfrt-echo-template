@@ -1,5 +1,9 @@
 1	launch	
-2	echo	
+2	lfdev	
+3	tbfs	
+4	-c	
+5	pkg/full/	
+6	lfpk/lfrt/latest.lfpk	
 filesystem.open is deprecated avoid using now use filesystem.[readPart, writePart, readAll, writeAll]	
 /home/Admin/Documents/lfrt-echo-template.lfar-84018/	
 filesystem.open is deprecated avoid using now use filesystem.[readPart, writePart, readAll, writeAll]	
@@ -17,3 +21,13 @@ added class: lfrt:lfpk of type [api]
 creating api: lfrt:runtime version 0	
 added class: lfrt:runtime of type [api]	
 --[Appliation Start]--	
+lfdev Terminal initialization	
+filesystem.open is deprecated avoid using now use filesystem.[readPart, writePart, readAll, writeAll]	
+true	
+loading module: 001-json.lua	
+filesystem.open is deprecated avoid using now use filesystem.[readPart, writePart, readAll, writeAll]	
+creating api: TheLuaFox86:json version 0	
+added class: TheLuaFox86:json of type [api]	
+filesystem.open is deprecated avoid using now use filesystem.[readPart, writePart, readAll, writeAll]	
+filesystem.open is deprecated avoid using now use filesystem.[readPart, writePart, readAll, writeAll]	
+filesystem.open is deprecated avoid using now use filesystem.[readPart, writePart, readAll, writeAll]	

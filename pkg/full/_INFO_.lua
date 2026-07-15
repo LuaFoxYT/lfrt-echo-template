@@ -1,5 +1,5 @@
 {
-    packageID = "com.luafoxyt.github.io.lfrt-echo-template",
+    packageID = "io.github.luafoxyt.lfrt-echo-template",
     packageName = "echo", -- name of youre progeram
     packageVersion = 000000001, -- version seperated by three the something like 0.0.1 becomes 000000001 1.1.1 is 001001001 and so on, must be a number
     packageAuthor = "LuaFoxYT", -- the author of the package, can be any string
