@@ -2,8 +2,8 @@
 2	lfdev	
 3	tbfs	
 4	-c	
-5	src	
-6	out.lfar	
+5	pkg/full/	
+6	lfpk/lfrt/latest.lfpk	
 /mnt/sdcard/Documents/lfrt-echo-template/.lfar-84018/	
 --[LuaFox Runtime Initialization]--	
 creating classtype: api	
@@ -38,6 +38,7 @@ lfdev Terminal initialization
 loading module: 001-json.lua	
 creating api: TheLuaFox86:json version 0	
 added class: TheLuaFox86:json of type [api]	
-function: 0x798b2088c0	nil	
+function: 0x772bae8340	nil	
+filesystem.open is deprecated avoid using. now use filesystem.[readPart, writePart, readAll, writeAll]	
 filesystem.open is deprecated avoid using. now use filesystem.[readPart, writePart, readAll, writeAll]	
 filesystem.open is deprecated avoid using. now use filesystem.[readPart, writePart, readAll, writeAll]	
